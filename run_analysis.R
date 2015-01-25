@@ -16,7 +16,7 @@ library(plyr)
 library(dplyr)
 
 ## Data directory
-dir.name = "./UCI_HAR_Dataset"
+dir.name = "./UCI\ HAR\ Dataset"
 output.dir.name  = "./data"
 output.file.name = "analysis.txt"
 
