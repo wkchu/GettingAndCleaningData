@@ -29,6 +29,12 @@ The X/Y/Z in the value labels indicated the measurement is from X, Y or Z dimens
 or std() measurements. The Acc/Gyro names indicated whether the data comes from an accelerometer
 or a gyroscope sensor on Samsung Galaxy S smartphones.
 
+The unit for all body and Gravity measurements has unit in standard gravity units 'g'.
+The angular velocity vectors have units in 'radians/second' but the angular data is not
+included in this new data set since the std() values are missing, and whether the mean
+values is derived from mean() function is not clear. Although it's easy to add the angular
+data in this data set by using a select() function to select all value labels with either
+a 'mean' or a 'std' string in it.
 
 === Labels ===
 
