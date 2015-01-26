@@ -27,7 +27,7 @@ There are 68 columns (including the activity and subject columns) and 180 observ
 The X/Y/Z in the value labels indicated the measurement is from X, Y or Z dimension. The
 'mean' and 'std' labels indicated this (average) values are coming from the origianl mean() 
 or std() measurements. The Acc/Gyro names indicated whether the data comes from an accelerometer
-or a gyroscope sensor.
+or a gyroscope sensor on Samsung Galaxy S smartphones.
 
 
 === Labels ===
