@@ -36,6 +36,8 @@ values is derived from mean() function is not clear. Although it's easy to add t
 data in this data set by using a select() function to select all value labels with either
 a 'mean' or a 'std' string in it.
 
+Note, features from the original data sets are normalized and bounded within [-1, 1].
+
 === Labels ===
 
  [1] "tBodyAcc-mean-X"           "tBodyAcc-mean-Y"           "tBodyAcc-mean-Z"          
